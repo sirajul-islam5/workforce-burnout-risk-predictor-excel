@@ -1,6 +1,6 @@
 # 🔥 Workforce Burnout Risk Predictor — Excel Project   
 
-A formula-based Excel tool that predicts employee burnout risk — Low, Medium, or High — using three measurable inputs: working hours, overtime days, and weekend work days. Every score and risk label is calculated purely through nested Excel formulas, with zero manual judgment involved.    
+A formula-based Excel tool that predicts employee burnout risk — Low, Medium, or High — using three measurable inputs: working hours, overtime days, and weekend work days. Every score and risk label is calculated purely through nested Excel formulas, with zero manual judgment involved.     
 
 ---
 
