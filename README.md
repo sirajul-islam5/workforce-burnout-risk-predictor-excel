@@ -14,7 +14,7 @@ The dataset covers 82 employees with realistic Bangladeshi names, each scored ac
 
 ## 🖼️ Preview
 
-![Burnout Risk Predictor Preview](burnout-risk-predictor-preview.png)
+![Burnout Risk Predictor Preview](burnout-risk-predictor-preview.jpg)
 
 ---
 
