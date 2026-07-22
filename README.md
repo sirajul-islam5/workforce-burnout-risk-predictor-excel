@@ -1,10 +1,10 @@
-# 🔥 Workforce Burnout Risk Predictor — Excel Project   
+# Workforce Burnout Risk Predictor — Excel Project   
 
 A formula-based Excel tool that predicts employee burnout risk — Low, Medium, or High — using three measurable inputs: working hours, overtime days, and weekend work days. Every score and risk label is calculated purely through nested Excel formulas, with zero manual judgment involved.     
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Burnout is usually noticed only after it becomes a problem — by then, an employee may already be disengaged or close to resigning. This project simulates an early-warning system that HR teams could use to flag at-risk employees automatically, based purely on objective work pattern data rather than subjective manager opinion.   
 
@@ -12,26 +12,26 @@ The dataset covers 82 employees with realistic Bangladeshi names, each scored ac
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 ![Burnout Risk Predictor Preview](burnout-risk-predictor-preview.jpg)
 
 ---
 
-## 📊 Burnout Risk Summary   
+## Burnout Risk Summary   
 
 | Risk Level | Employee Count |
 |------------|-----------------|
-| 🟢 Low Risk | 28 |
-| 🟡 Medium Risk | 28 |
-| 🔴 High Risk | 26 |
+| Low Risk | 28 |
+| Medium Risk | 28 |
+| High Risk | 26 |
 | **Total Employees** | **82** |
 
 A near-even three-way split across the workforce — meaning roughly 1 in 3 employees is currently flagged as High Risk, a strong signal for HR intervention if this were a real organization. 
 
 ---
 
-## 🧮 How the Scoring Logic Works   
+## How the Scoring Logic Works   
 
 Each employee is scored across three categories using nested `IF` formulas. The three category scores are added together into a **Total Score (max 6)**, which then determines the final **Burnout Risk** label.   
 
@@ -59,9 +59,9 @@ Each employee is scored across three categories using nested `IF` formulas. The 
 ### Final Burnout Risk (Total Score → Risk Level)   
 | Total Score | Risk Level |
 |--------------|------------|
-| 0–2 | 🟢 Low |
-| 3–4 | 🟡 Medium |
-| 5–6 | 🔴 High |
+| 0–2 | Low |
+| 3–4 | Medium |
+| 5–6 | High |
 
 All thresholds are documented directly on the sheet in an on-sheet **"Scoring Rules"** legend — so anyone opening the file can verify the logic without needing to inspect a single formula.
 
@@ -71,11 +71,11 @@ All thresholds are documented directly on the sheet in an on-sheet **"Scoring Ru
 
 | Employee Name | Working Hours | Overtime Days | Weekend Days | Total Score | Burnout Risk |
 |----------------|----------------|-----------------|----------------|---------------|----------------|
-| Manik Molla | 61 | 17 | 6 | 6 | 🔴 High |
-| Rabeya Sarkar | 44 | 0 | 0 | 0 | 🟢 Low |
-| Shahidul Miah | 60 | 23 | 7 | 6 | 🔴 High |
-| Shahin Rahman | 44 | 2 | 1 | 1 | 🟢 Low |
-| Lovely Islam | 48 | 8 | 2 | 3 | 🟡 Medium |
+| Manik Molla | 61 | 17 | 6 | 6 | High |
+| Rabeya Sarkar | 44 | 0 | 0 | 0 | Low |
+| Shahidul Miah | 60 | 23 | 7 | 6 | High |
+| Shahin Rahman | 44 | 2 | 1 | 1 | Low |
+| Lovely Islam | 48 | 8 | 2 | 3 | Medium |
 
 > The full dataset spans 82 employees and is available in
 > `custom_dataset_burnout_risk_82.csv` for anyone who wants to explore or
@@ -83,7 +83,7 @@ All thresholds are documented directly on the sheet in an on-sheet **"Scoring Ru
 
 ---
 
-## 🛠️ Features Built   
+## Features Built   
 
 | Feature | Purpose |
 |---------|---------|
@@ -96,7 +96,7 @@ All thresholds are documented directly on the sheet in an on-sheet **"Scoring Ru
 
 ---
 
-## 💡 Key Learnings   
+## Key Learnings   
 
 - How to convert three separate behavioral indicators into a single, unified risk score using consistent point-based logic   
 - Building nested `IF` formulas that stay readable even as the number of conditions grows   
@@ -106,7 +106,7 @@ All thresholds are documented directly on the sheet in an on-sheet **"Scoring Ru
 
 ---
 
-## 🚀 How to Use   
+## How to Use   
 
 1. Download the `Workforce_Burnout_Risk_Predictor.xlsx` file   
 2. Open it in Microsoft Excel   
@@ -116,7 +116,7 @@ All thresholds are documented directly on the sheet in an on-sheet **"Scoring Ru
 
 ---
 
-## 👤 Author
+## Author
 
 **Md. Sirajul Islam**   
 - [linkedin.com/in/md-sirajul-islam57](https://linkedin.com/in/md-sirajul-islam57)   
@@ -124,7 +124,7 @@ All thresholds are documented directly on the sheet in an on-sheet **"Scoring Ru
 
 ---
 
-## 📄 License   
+## License   
 
 This project is open source and available under the [MIT License](LICENSE).   
 
